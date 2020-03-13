@@ -1,3 +1,7 @@
+if (process.argv.length !== 4){
+    console.log("Please enter 2 integers separated by whitespace to indicate the desired length and number of of passwords")
+}
+
 // this function makes passwords
 let makePassword = (passwordLength) => {
     let characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+'
