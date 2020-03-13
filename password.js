@@ -13,8 +13,10 @@ let makePassword = (passwordLength) => {
       return password
 }
 
-    for (let i = 1; i<= process.argv[3]; i++){
-        console.log(makePassword(process.argv[2]))
-    }
+// make & print a password until the desired number passed in by the user has been met
+for (let i = 1; i<= process.argv[3]; i++){
+    console.log(makePassword(process.argv[2]))
+}
+
 // done
 process.exit(0)
